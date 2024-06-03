@@ -12,9 +12,9 @@ The data used in this project is sourced from [Our World in Data](https://ourwor
 
 The project is structured as follows:
 
-**data/**: Contains the raw data files in CSV format.
-**Covid.sql/**: Contains SQL scripts used for data processing and analysis.
-**results/**: Contains output results such as summary tables.
+- **data/**: Contains the raw data files in CSV format.
+- **Covid.sql**: Contains SQL scripts used for data processing and analysis.
+- **results/**: Contains output results such as summary tables.
 
 ## Database Schema
 
