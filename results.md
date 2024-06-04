@@ -1,5 +1,5 @@
 # SQL Query Results
-* The following tables only show the first 10 rows of the actual result.
+__The following tables only show the first 10 rows of the actual result.__
 
 ## 1. Explore the data from 2 tables
 ```sql
