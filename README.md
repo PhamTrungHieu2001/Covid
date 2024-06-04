@@ -13,7 +13,7 @@ The data used in this project is sourced from [Our World in Data](https://ourwor
 The project is structured as follows:
 
 - **data/**: Contains the raw data files in Excel Workbook format.
-- **Covid.sql**: Contains SQL scripts used for data processing and analysis.
+- **Covid.sql**: Contains SQL scripts used for data analysis.
 - **results.md**: Contains output results.
 
 ## Database Schema
