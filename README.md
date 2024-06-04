@@ -14,7 +14,7 @@ The project is structured as follows:
 
 - **data/**: Contains the raw data files in Excel Workbook format.
 - **Covid.sql**: Contains SQL scripts used for data processing and analysis.
-- **results/**: Contains output results such as summary tables.
+- **results.md**: Contains output results.
 
 ## Database Schema
 
