@@ -1,7 +1,6 @@
 -- 1. EXPLORE THE DATA FROM 2 TABLES
 SELECT iso_code, continent, location, date, population, total_cases, new_cases, total_deaths, new_deaths
 FROM     PortfolioProject.dbo.CovidDeaths
-WHERE  (continent IS NULL)
 ORDER BY location, date
 
 SELECT iso_code, continent, location, date, new_tests, total_tests, total_vaccinations, new_vaccinations
