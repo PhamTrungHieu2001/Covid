@@ -5,7 +5,6 @@ _The following tables only show the first 10 rows of the actual result._
 ```sql
 SELECT iso_code, continent, location, date, population, total_cases, new_cases, total_deaths, new_deaths
 FROM     PortfolioProject.dbo.CovidDeaths
-WHERE  (continent IS NULL)
 ORDER BY location, date
 
 SELECT iso_code, continent, location, date, new_tests, total_tests, total_vaccinations, new_vaccinations
@@ -13,18 +12,18 @@ FROM     PortfolioProject.dbo.CovidVaccinations
 ORDER BY location, date
 ```
 **CovidDeaths**
-| iso_code | continent | location | date       | population | total_cases | new_cases | total_deaths | new_deaths |
-|----------|-----------|----------|------------|------------|-------------|-----------|--------------|------------|
-| BGR      | Europe    | Bulgaria | 2020-10-22 | 6,948,445  | 34,930      | 1,595     | 1,064        | 16         |
-| BGR      | Europe    | Bulgaria | 2020-10-23 | 6,948,445  | 36,519      | 1,589     | 1,077        | 13         |
-| BGR      | Europe    | Bulgaria | 2020-10-24 | 6,948,445  | 37,562      | 1,043     | 1,084        | 7          |
-| BGR      | Europe    | Bulgaria | 2020-10-25 | 6,948,445  | 37,889      | 327       | 1,094        | 10         |
-| BGR      | Europe    | Bulgaria | 2020-10-26 | 6,948,445  | 40,132      | 2,243     | 1,136        | 42         |
-| BGR      | Europe    | Bulgaria | 2020-10-27 | 6,948,445  | 42,701      | 2,569     | 1,161        | 25         |
-| BGR      | Europe    | Bulgaria | 2020-10-28 | 6,948,445  | 45,461      | 2,760     | 1,197        | 36         |
-| BGR      | Europe    | Bulgaria | 2020-10-29 | 6,948,445  | 48,150      | 2,689     | 1,225        | 28         |
-| BGR      | Europe    | Bulgaria | 2020-10-30 | 6,948,445  | 51,041      | 2,891     | 1,254        | 29         |
-| BGR      | Europe    | Bulgaria | 2020-10-31 | 6,948,445  | 52,844      | 1,803     | 1,279        | 25         |
+| iso_code | continent | location    | date       | population | total_cases | new_cases | total_deaths | new_deaths |
+|----------|-----------|-------------|------------|------------|-------------|-----------|--------------|------------|
+| AFG      | Asia      | Afghanistan | 2020-02-24 | 38928341   | 1           | 1         | NULL         | NULL       |
+| AFG      | Asia      | Afghanistan | 2020-02-25 | 38928341   | 1           | 0         | NULL         | NULL       |
+| AFG      | Asia      | Afghanistan | 2020-02-26 | 38928341   | 1           | 0         | NULL         | NULL       |
+| AFG      | Asia      | Afghanistan | 2020-02-27 | 38928341   | 1           | 0         | NULL         | NULL       |
+| AFG      | Asia      | Afghanistan | 2020-02-28 | 38928341   | 1           | 0         | NULL         | NULL       |
+| AFG      | Asia      | Afghanistan | 2020-02-29 | 38928341   | 1           | 0         | NULL         | NULL       |
+| AFG      | Asia      | Afghanistan | 2020-03-01 | 38928341   | 1           | 0         | NULL         | NULL       |
+| AFG      | Asia      | Afghanistan | 2020-03-02 | 38928341   | 1           | 0         | NULL         | NULL       |
+| AFG      | Asia      | Afghanistan | 2020-03-03 | 38928341   | 2           | 1         | NULL         | NULL       |
+| AFG      | Asia      | Afghanistan | 2020-03-04 | 38928341   | 4           | 2         | NULL         | NULL       |
 
 **CovidVaccinations**
 | iso_code | continent | location   | date       | new_tests | total_tests | total_vaccinations | new_vaccinations |
