@@ -45,10 +45,6 @@ The database schema consists of the following tables:
 | total_vaccinations| NVARCHAR(255) | Total number of vaccinations |
 | new_vaccinations| NVARCHAR(255) | Number of new vaccinations |
 
-## Contributing
-
-If you'd like to contribute to this project, please fork the repository and use a feature branch. Pull requests are welcome.
-
 
 
 
