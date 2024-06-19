@@ -2,7 +2,12 @@
 
 ## Project Overview
 
-This project focuses on analyzing COVID-19 cases across various countries from January 2020 to April 2021 using SQL. The goal is to provide insights into the spread of the virus, the impact on different regions, and trends over time.
+This project focuses on analyzing COVID-19 cases across various countries from January 2020 to April 2021 using SQL. The goal is to provide insights into:
+1. The number of deaths and cases of each country
+2. The number of deaths and cases every day
+3. Daily infection rate 
+4. Daily mortality rate
+5. Daily vaccination rate
 
 ## Data Source
 
@@ -14,7 +19,7 @@ The project is structured as follows:
 
 - **data/**: Contains the raw data files in Excel Workbook format.
 - **Covid.sql**: Contains SQL scripts used for data analysis.
-- **results.md**: Contains output results.
+- **results.md**: **Contains output results**.
 
 ## Database Schema
 
