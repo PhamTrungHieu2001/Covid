@@ -3,11 +3,10 @@
 ## Project Overview
 
 This project focuses on analyzing COVID-19 cases across various countries from January 2020 to April 2021 using SQL. The goal is to provide insights into:
-1. The number of deaths and cases of each country
-2. The number of deaths and cases every day
-3. Daily infection rate 
-4. Daily mortality rate
-5. Daily vaccination rate
+1. The number of deaths and cases of every day
+2. Daily infection rate 
+3. Daily mortality rate
+4. Daily vaccination rate
 
 ## Data Source
 
